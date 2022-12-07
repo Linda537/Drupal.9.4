@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+
+  main {
+    display: flex;
+  }
+
+  .layout-content {
+    min-width: 50%;
+    order: 2;
+    padding: 2em;
+  }
+
+  .layout-sidebar-first {
+    width: 25%;
+    order: 1;
+  }
+
+  .layout-sidebar-second {
+    width: 25%;
+    order: 3;
+  }
+
+  .node__sidebar img {
+    width: 100%;
+    height: auto;
+  }
+
+  .node__content {
+    display: flex;
+  }
+
+  .node__sidebar {
+    width: 25%;
+  }
+
+  .node__main {
+    width: 75%;
+    padding-left: 1rem;
+  }
+
+}
